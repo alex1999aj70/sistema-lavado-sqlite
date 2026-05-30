@@ -1,0 +1,13 @@
+{
+  "name": "sistema-lavado-sqlite",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env server.js",
+    "seed": "node --env-file=.env src/seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "express": "^4.18.2"
+  }
+}
